@@ -1,0 +1,46 @@
+((=- IPython input/output style -=))
+((*- extends 'style_jupyter.tex.j2' -*))
+
+((* block docclass *))
+    \documentclass[titlepage]{article}
+((* endblock docclass *))
+
+((* block margins *))
+    \geometry{includeheadfoot,verbose,tmargin=0.25in,headheight=0.5in,bmargin=0.5in,lmargin=1in,rmargin=0.75in}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \lhead{\includegraphics[scale=0.1]{Jupyter-lab}}
+    \rhead{ \textmd{{\LARGE {\color{linkcolor} P}{\color{gray} DF export example nbconvert} }} }
+    \rfoot{Page \thepage\ of \pageref{LastPage}}
+    \lfoot{ {\footnotesize {\color{gray}Created by Plinsboorg in JupyterLab Version 3.2.5 using Octave kernel \\ Free and open source software}}}
+ 
+    \renewcommand{\headrulewidth}{0.5pt}
+    \renewcommand{\footrulewidth}{0.5pt}
+((* endblock margins *))
+
+((* block packages *))
+  ((( super() )))
+  \usepackage{fancyhdr}
+  \usepackage{lastpage}
+  \graphicspath{ {D:/GitLab/nbconvert_7_export_to_pdf_template/export_template_pdf} }
+((* endblock packages *))
+
+
+    
+((* block predoc *))
+   
+((* endblock predoc *))
+
+((* block author *))
+    \author{Plinsboorg}
+((* endblock author *))
+
+((* block title *))
+    \title{PDF export example}
+((* endblock title *))
+
+((* block bibliography *))
+    \addcontentsline{toc}{section}{References}
+    \bibliographystyle{unsrt}
+    \bibliography{References}
+((* endblock bibliography *))
