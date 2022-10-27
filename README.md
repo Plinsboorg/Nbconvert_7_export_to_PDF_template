@@ -11,3 +11,6 @@ Copy the last cell from the pdf_export_example.ipynb to your project. Use it for
 ## License
 You can reuse the template without any restriction. 
 Template is provided as is. No warrany.
+
+## Keywords
+nbconvert, nb, convert, jupyter, lab, notebook, pdf, export, example, template.
