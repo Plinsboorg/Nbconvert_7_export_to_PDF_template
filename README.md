@@ -19,3 +19,5 @@ Template is provided as is. No warrany.
 
 ## Keywords
 nbconvert, nb, convert, jupyter, lab, notebook, pdf, export, example, template.
+plotting, plot, science, report, scatter, legend, grid, tick, gnuplot, qtplot, qt, gnu.
+hide cell, remove_cell, remove, --TagRemovePreprocessor.remove_cell_tags, --TagRemovePreprocessor.remove_input_tags
