@@ -1,4 +1,4 @@
-# Nbconvert_7_export_to_PDF_template
+# Nbconvert 7 export to PDF template
 
 
 
