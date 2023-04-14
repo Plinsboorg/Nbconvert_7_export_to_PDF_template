@@ -1,6 +1,8 @@
 # Nbconvert 7 export to PDF template
 
+## Why this repo exists
 
+I needed to generate pretty PDF file with my calculations in PDF format from my Jupyter notebook. I tried using the examples from nb_pdf_template repository and some of the things didn't work. Some features where missing. I tryed my best to understand the documentation in figure out the working template for the jupyter notebook export to PDF using nbconvert 7. I hope this will help you understand how to do your template from your great work.
 
 ## How to use the template
 
