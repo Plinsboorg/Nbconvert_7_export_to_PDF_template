@@ -1,4 +1,4 @@
-# Nbconvert 7 export to PDF template
+# Jupyter notebook export to PDF template using Nbconvert 7
 
 ## Why this repo exists
 
